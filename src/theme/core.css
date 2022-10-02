@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Optima nova LT";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../public/assets/fonts/OptimaNovaLTProRegular.otf"),
+  }
+
+@font-face {
+    font-family: "Optima nova LT";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../../public/assets/fonts/OptimaNovaLTProItalic.otf");
+}
+
+@font-face {
+    font-family: "Optima nova LT";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../public/assets/fonts/OptimaNovaLTProLight.otf");
+}
+
+ion-content {
+    --background: #e2cfc0;
+    --color: #5c4034;
+}
